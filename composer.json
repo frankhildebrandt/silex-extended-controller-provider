@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "FHildebrandt\\Silex\\ExtendedController": "./src"
+      "FHildebrandt\\Silex\\ExtendedController\\": "./src"
     }
   },
   "minimum-stability": "dev",
