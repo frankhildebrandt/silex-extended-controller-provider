@@ -1,0 +1,22 @@
+{
+  "name": "frankhildebrandt/silex-extended-controller-provider",
+  "description": "silex plugin for simpler controller providers",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Frank Hildebrandt",
+      "email": "frank.hildebrandt@me.com"
+    }
+  ],
+  "require-dev": {
+    "phpspec/phpspec": "2.4.*"
+  },
+  "require": {
+    "silex/silex": "~2.0@dev"
+  },
+  "autoload": {
+    "FHildebrandt\\Silex\\ExtendedController": "./src"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
